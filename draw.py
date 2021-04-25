@@ -73,6 +73,7 @@ def generate_torus( points, cx, cy, cz, r0, r1, step ):
             add_point(tor, x, y ,z)
             cir += step
         rot += step
+    return tor
 
   # ====================
   # adds all the points for a torus with center
